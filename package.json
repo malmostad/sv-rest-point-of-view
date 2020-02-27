@@ -1,0 +1,31 @@
+{
+	"name": "rest-app-maps",
+	"version": "1.0.0",
+	"description": "A REST-App to deliver json data with correct content type",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"scripts": {
+		"setup": "node util/setup.js",
+		"zip": "node util/zip.js",
+		"deploy": "npm run zip && node util/deploy.js",
+		"force-deploy": "npm run zip && node util/deploy.js force",
+		"create-addon": "node util/create-addon.js",
+		"sign": "npm run zip && node util/sign.js",
+		"prod-deploy": "node util/prod-deploy.js"
+	},
+	"license": "MIT",
+	"author": "ÅF Digital Solutions",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"devDependencies": {
+		"inquirer": "^5.2.0",
+		"jsonfile": "^4.0.0",
+		"request": "^2.87.0",
+		"zip-dir": "^1.0.2"
+	}
+}

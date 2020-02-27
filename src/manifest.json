@@ -1,0 +1,9 @@
+{
+    "id": "restAppPointOfView",
+    "version": "0.0.7",
+    "name": "RESTAPP Point of view",
+    "author": "ÅF Digital Solutions",
+    "description": "A RESTApp for synpunkshanteringen",
+    "helpUrl": "https://webbteam.se",
+    "type": "RESTApp"
+}
